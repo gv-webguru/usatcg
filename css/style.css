@@ -1,0 +1,354 @@
+@charset "UTF-8";
+/* CSS Document for Custome styles in USATCG 2019  */
+/*By default, this style sheet addresses x-small widths -- mobile devices in portrai mode -- Larger divice widths are addressed with media queries*/
+/*If there's a rule for it in this top section, you might find a rule change in one or more media querries below.*/
+/*
+//Colors -
+//Orange: cmyk (0,62,100), rgb(245,127,32), #f57f20
+//Brownish Grey: cmyk (53,55,60,26), rgb(108,94,85), #6c5e55
+//USA Today Blue: cmyk (72,18,0,0), rgb(0,166,232), #00a6e8
+*/
+.header{
+	/*width: 100%;*/
+}
+
+.col-12.banner{
+    width: 100%;
+    height: 27.3%;
+    min-height:90px;
+    background-image: url(https://multi-crafthosting.com/gv/usatcg/images/kidsonsteps-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+}
+
+.masthead-wrapper{
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
+}
+
+.masthead{
+    max-width:1200px;
+    box-shadow: 0 12.5px 25px rgba(0,0,0,0.5);
+}
+
+.masthead img{
+	width:100%;
+}
+
+
+
+.cont-wrapper{
+	max-width:1200px;
+	margin: 0 auto;
+    padding:15px
+}
+
+.copy-cont{
+	width:100%;
+    padding:0 10px 0 0;
+}
+
+.orange{
+    color:rgb(245,127,32);
+}
+
+.ewg{
+    color:rgb(108,94,85);
+}
+
+.bold-caps{
+    font-weight:900;
+    text-transform: uppercase;
+    font-size: 13pt;
+}
+
+.all-caps{
+    text-transform: uppercase;
+}
+
+.ty-heading{
+    font-size: 11pt;
+}
+
+.copy-graph{
+    color:rgb(108,94,85);
+    line-height:1.75em;
+    font-size: 1em;
+}
+
+#emi-logo{
+    margin-top:40px;
+}
+
+
+.form-cont{
+	width:100%;
+}
+
+.col-form-label{
+    text-align: left;
+}
+.col-form-label.univ{
+    margin-top:-13px;
+    padding-bottom: 0;
+}
+
+#hidden-buyer{
+    width:80%;
+    margin-left:10%;
+    display: none;
+}
+
+.vis-mob{
+    display:block;
+}
+.vis-desk{
+    display:none;
+}
+
+.blue-bar{
+	max-width:1200px;
+	text-align: center;
+	color:#fff;
+	margin:0 auto;
+    background-color:rgb(0,166,232);
+    font-size:.75em;
+    padding:20px 0 1px;
+}
+.copy-contact a{
+    color:#dfdfdf;
+}
+
+.sep{
+    width:75%;
+    margin:25px auto;
+    border-bottom:2px solid rgba(108,94,85,.5);
+    border-top: 2px solid rgba(245,127,32,.50);
+    border-radius:2px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.5);
+}
+
+.submit-btn{
+    background-color: rgb(245,127,32);
+    border-color: rgb(213,95,0);
+    border-width: 2px;
+    margin: 15px auto 25px;
+    border-style: outset;
+    width: 80% !important;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.75);
+    letter-spacing: 1px;
+}
+
+.ty-btn-copy{
+    margin:35px auto;
+    text-align: left;
+    font-size: 1.16em;
+    font-weight:900;
+    color:rgb(108,94,85);
+}
+
+#addContact-btn{
+    padding:25px;
+    background-color:rgb(245,127,32);
+    border-color: rgb(187,63,0);
+    border-width:3.5px;
+    border-style: solid;
+    font-size: 1.6em;
+    color:#fff;
+    font-weight: 900;
+    border-radius:15px;
+    text-shadow: 0 0 15px rgb(187,63,0);
+    text-decoration: none;
+    width:50%;
+    margin:15px auto;
+    text-align: center;
+    line-height: .95em;
+}
+
+.hide-break{
+    display: none;
+}
+
+.med-kit-link img{
+    width:100%;
+}
+
+/*Small screen widths - starting @ 576px -- smaller screens are addressed above. Typically phones in landscape mode.*/
+@media only screen and (min-width: 576px){
+    .col-12.banner{
+        min-height: 194px;
+    }
+}
+
+/*Medium screen widths - starting @ 768px - typically tablets in portrait mode.*/
+@media only screen and (min-width: 768px){
+    .col-12.banner{
+        min-height: 259px;
+    }
+    
+    .col-form-label{
+        text-align: right;
+    }
+    
+    .med-kit-link img{
+        width:75%;
+    }
+}
+
+/*Large screen widths - starting @9 92px - typically tablets in portrait mode.*/
+@media only screen and (min-width: 992px){
+	/*This is where I want the copy and form columns to sit side-by-side -- They stay stacked until this point.*/
+    .col-12.banner{
+        min-height: 334px;
+    }
+    .bold-caps{
+        font-size:28pt;
+    }
+    .ty-heading{
+        font-size: 22pt;
+    }
+    
+    .copy-cont, .form-cont{
+		display: inline-grid;
+	}
+	.copy-cont{
+		width:33%;
+        
+	}
+    .copy-cont{
+        line-height:1.5em;
+        font-size: 1.45em;
+        /*border-right:1px solid #000;*/
+    }
+	.form-cont{
+		width:66%;
+        
+	}
+    
+    .ty-btn-copy{
+        margin:0 0 0 50px;
+        text-align: left;
+        font-size: 1em;
+        font-weight:900;
+        color:rgb(108,94,85);
+        width:55%;
+    }
+    
+    #addContact-btn{
+        padding:25px;
+        background-color:rgb(245,127,32);
+        border-color: rgb(187,63,0);
+        border-width:3.5px;
+        border-style: solid;
+        font-size: 2.7em;
+        color:#fff;
+        font-weight: 900;
+        border-radius:15px;
+        text-shadow: 0 0 15px rgb(187,63,0);
+        text-decoration: none;
+        width:50%;
+        margin:15px auto;
+        text-align: center;
+        line-height: .95em;
+    }
+    .hide-break{
+        display: block;
+    }
+    .vis-mob{
+        display:none;
+    }
+    .vis-desk{
+        display:block;
+    }
+    
+    .med-kits{
+        border-left:1px solid #000;
+    }
+    
+    .med-kit-link{
+        width:450px;
+        text-align: right;
+        margin-left:50px;
+        margin-bottom:24px;
+    }
+    
+    .med-kit-link img{
+        width:100%;
+    }
+}
+
+/*Xtra - large screen widths - starting @ 1200px - typically desktop computers.*/
+@media only screen and (min-width:1200px){
+    .col-12.banner{
+        min-height: 404px;
+    }
+}
+
+/*Special Banner Styles*/
+
+img.lgdt{
+    display:none;
+}
+img.mddt{
+    display:none;
+}
+img.smdt{
+    display:none;
+}
+
+img.mob{
+    display:block;
+}
+@media only screen and (min-width:1200px){
+    img.lgdt{
+        display:none;
+    }
+    img.mddt{
+        display:none;
+    }
+    img.smdt{
+        display:block;
+    }
+
+    img.mob{
+        display:none;
+    }
+    
+}
+
+@media only screen and (min-width:1480px){
+    img.lgdt{
+        display:none;
+    }
+    img.mddt{
+        display:block;
+    }
+    img.smdt{
+        display:none;
+    }
+
+    img.mob{
+        display:none;
+    }
+    
+}
+
+@media only screen and (min-width:1740px){
+    img.lgdt{
+        display:block;
+    }
+    img.mddt{
+        display:none;
+    }
+    img.smdt{
+        display:none;
+    }
+
+    img.mob{
+        display:none;
+    }
+    
+}

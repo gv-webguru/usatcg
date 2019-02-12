@@ -1,0 +1,94 @@
+ADOBE INDESIGN PRINTING INSTRUCTIONS FOR SERVICE PROVIDER REPORT
+
+PUBLICATION NAME: 2020_USATCG_ LandingPage.indd
+
+PACKAGE DATE: 2/8/19 3:03 PM
+Creation Date: 2/8/19
+Modification Date: 2/8/19
+
+CONTACT INFORMATION
+
+Company Name: 
+Contact: 
+Address: 
+
+
+
+
+
+Phone: 
+Fax: 
+Email: 
+
+SPECIAL INSTRUCTIONS AND OTHER NOTES
+
+
+
+
+
+
+External Plug-ins 0
+Non Opaque Objects :On Page1
+
+FONTS
+6 Fonts Used; 0 Missing, 0 Embedded, 0 Incomplete, 0 Protected
+
+Fonts Packaged
+- Name: FuturaStd-Bold; Type: OpenType Type 1, Status: OK
+- Name: Gotham-Book; Type: OpenType Type 1, Status: OK
+- Name: GothamBlack; Type: TrueType, Status: OK
+- Name: GothamBook; Type: TrueType, Status: OK
+- Name: GothamBook-Italic; Type: TrueType, Status: OK
+- Name: Prelo-Bold; Type: OpenType Type 1, Status: OK
+
+
+COLORS AND INKS
+4 Process Inks; 0 Spot Inks
+
+- Name and Type: Process Cyan; Angle: 15.000; Lines/Inch: 85.000
+- Name and Type: Process Magenta; Angle: 75.000; Lines/Inch: 85.000
+- Name and Type: Process Yellow; Angle: 0.000; Lines/Inch: 85.000
+- Name and Type: Process Black; Angle: 45.000; Lines/Inch: 85.000
+
+
+LINKS AND IMAGES
+(Missing & Embedded Links Only)
+Links and Images: 2 Links Found; 0 Modified, 0 Missing, 0 Inaccessible
+Images: 0 Embedded, 2 use RGB color space
+
+
+PRINT SETTINGS
+PPD: Fiery E100 70-60C-KM PS Color Server 1.11, (C6000)
+Printing To: Printer
+Number of Copies: 1
+Reader Spreads: No
+Even/Odd Pages: Both
+Pages: All
+Proof: No
+Tiling: None
+Scale: 100%, 100%
+Page Position: Upper Left
+Print Layers: Visible & Printable Layers
+Printer's Marks: None
+Bleed: 0 px, 0 px, 0 px, 0 px
+Color: Composite CMYK
+Trapping Mode: None
+Send Image Data: Optimized Subsampling
+OPI/DCS Image Replacement: No
+Page Size: Custom: 960 px x 660 px
+Paper Dimensions: 612 px x 792 px
+Orientation: Portrait
+Negative: No
+Flip Mode: Off
+
+
+FILE PACKAGE LIST
+
+1. 2020_USATCG_ LandingPage.indd; type: Adobe InDesign publication; size: 2228K
+2. 2020_USATCG_ LandingPage.pdf; type: Adobe Acrobat Document; size: 275K
+3. FuturaStd-Bold.otf; type: Font file; size: 27K
+4. Gotham-Book.otf; type: Font file; size: 146K
+5. Gotham-Black.ttf; type: Font file; size: 63K
+6. Gotham-Book.ttf; type: Font file; size: 65K
+7. Gotham-BookItalic.ttf; type: Font file; size: 63K
+8. Prelo-Bold.otf; type: Font file; size: 61K
